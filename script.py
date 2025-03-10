@@ -19,7 +19,7 @@ if __name__ == '__main__':
     logging.basicConfig(
         level=logging.INFO,
         format='%(asctime)s - %(levelname)s - %(message)s',
-        datefmt='%I:%M:%S',
+        datefmt='%H:%M:%S',
     )
 
     username = os.environ['INSTAGRAM_USERNAME']
